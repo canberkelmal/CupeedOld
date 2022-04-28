@@ -253,6 +253,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rb: {fileID: 1897781}
   force: 50
+  player: {fileID: 0}
 --- !u!114 &1897783
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -308,6 +309,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rb: {fileID: 0}
   force: 500
+  player: {fileID: 0}
 --- !u!64 &6165629
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -421,6 +423,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rb: {fileID: 0}
   force: 500
+  player: {fileID: 0}
 --- !u!64 &14471091
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -838,6 +841,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rb: {fileID: 0}
   force: 500
+  player: {fileID: 0}
 --- !u!1 &678028959
 GameObject:
   m_ObjectHideFlags: 0
@@ -1080,6 +1084,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rb: {fileID: 0}
   force: 500
+  player: {fileID: 0}
 --- !u!64 &855763673
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -1473,6 +1478,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rb: {fileID: 0}
   force: 500
+  player: {fileID: 0}
 --- !u!64 &1522415364
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -1713,10 +1719,10 @@ RectTransform:
   m_Father: {fileID: 1568309196}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 431, y: 53.346}
-  m_SizeDelta: {x: 122.9557, y: 94.3398}
+  m_AnchorMin: {x: 1, y: 0}
+  m_AnchorMax: {x: 1, y: 0}
+  m_AnchoredPosition: {x: -36, y: 53.346}
+  m_SizeDelta: {x: 122.95569, y: 94.3398}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1542496027
 MonoBehaviour:

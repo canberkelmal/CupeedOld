@@ -5,6 +5,7 @@ public class PlaayerMovement : MonoBehaviour
 
     public Rigidbody rb;
     public float force=500f;
+    public GameObject player;
 
     // Start is called before the first frame update
     void Start()
