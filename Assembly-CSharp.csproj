@@ -57,7 +57,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\PlayerCollision.cs" />
+    <Compile Include="Assets\Scripts\Color.cs" />
     <Compile Include="Assets\Scripts\PlaayerMovement.cs" />
+    <Compile Include="Assets\Scripts\Count.cs" />
     <Compile Include="Assets\Scripts\fallowPlayer.cs" />
   </ItemGroup>
   <ItemGroup>
