@@ -35,6 +35,11 @@ public class PlaayerMovement : MonoBehaviour
         {
             rb.AddForce(0, 0, -force * Time.deltaTime, ForceMode.VelocityChange);
         };
+         if (Input.GetKey("space"))
+        {
+            rb.AddForce(0, force * Time.deltaTime, 0, ForceMode.VelocityChange);
+        };
+        
 
     }
 }

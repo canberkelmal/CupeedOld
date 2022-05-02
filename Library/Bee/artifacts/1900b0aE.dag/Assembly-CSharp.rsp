@@ -347,7 +347,12 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
 "Assets/Scripts/Color.cs"
 "Assets/Scripts/Count.cs"
+"Assets/Scripts/Credits.cs"
+"Assets/Scripts/EndTrigger.cs"
 "Assets/Scripts/fallowPlayer.cs"
+"Assets/Scripts/GameManager.cs"
+"Assets/Scripts/LevelComplete.cs"
+"Assets/Scripts/Menu.cs"
 "Assets/Scripts/PlaayerMovement.cs"
 "Assets/Scripts/PlayerCollision.cs"
 -langversion:9.0

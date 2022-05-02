@@ -1,0 +1,28 @@
+using UnityEngine;
+using UnityEngine.SceneManagement;
+public class GameManager : MonoBehaviour
+{
+    bool gameHasEnded= false;
+    public float restartDelay=1f;
+    public GameObject completeLevelUI;
+    public int score;
+    
+    public void scorePlus(){
+        score++;
+    }
+    public void CompleteLevel(){
+        Debug.Log("Level Completed!");
+        completeLevelUI.SetActive(true);
+    }
+    public void EndGame(){
+        if(gameHasEnded==false){
+            gameHasEnded=true;
+            Debug.Log("Game Over");
+            Invoke("Restart", restartDelay);
+        }
+    }
+    void Restart(){
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+    }
+
+}
