@@ -19,6 +19,11 @@ UnityEngine.Application::get_isPlaying
 UnityEngine.Application::Quit
 UnityEngine.Application::get_platform
 UnityEngine.AsyncOperation::InternalDestroy
+UnityEngine.AudioSource::PlayHelper
+UnityEngine.AudioSource::SetPitch
+UnityEngine.AudioSource::set_clip
+UnityEngine.AudioSource::set_loop
+UnityEngine.AudioSource::set_volume
 UnityEngine.Behaviour::get_enabled
 UnityEngine.Behaviour::get_isActiveAndEnabled
 UnityEngine.Behaviour::set_enabled
@@ -379,6 +384,9 @@ UnityEngine.PlayerConnectionInternal::PollInternal
 UnityEngine.PlayerConnectionInternal::RegisterInternal
 UnityEngine.PlayerConnectionInternal::SendMessage
 UnityEngine.PlayerConnectionInternal::UnregisterInternal
+UnityEngine.PlayerPrefs::TrySetInt
+UnityEngine.PlayerPrefs::GetInt
+UnityEngine.PlayerPrefs::DeleteKey
 UnityEngine.PropertyNameUtils::PropertyNameFromString_Injected
 UnityEngine.QualitySettings::get_activeColorSpace
 UnityEngine.Quaternion::AngleAxis_Injected
@@ -545,6 +553,7 @@ UnityEngine.TouchScreenKeyboard::set_text
 UnityEngine.TouchScreenKeyboard::get_status
 UnityEngine.Transform::IsChildOf
 UnityEngine.Transform::get_childCount
+UnityEngine.Transform::Internal_LookAt_Injected
 UnityEngine.Transform::InverseTransformPoint_Injected
 UnityEngine.Transform::SetAsFirstSibling
 UnityEngine.Transform::SetParent
